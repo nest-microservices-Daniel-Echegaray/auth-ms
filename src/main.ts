@@ -22,6 +22,7 @@ async function bootstrap() {
       forbidNonWhitelisted: true,
     }),
   );
+  console.log('Prueba');
   logger.log(`Listening on port ${envs.port}`);
   await app.listen();
 }
